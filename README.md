@@ -1,11 +1,11 @@
-# � cPanel Tools
+# cPanel Tools
 
 A collection of scripts to manage and monitor **cPanel accounts** via the **cPanel API**.  
 This repository includes tools for **disk usage monitoring**, **account management**, and ... !
 
 ---
 
-## � Features
+## Features
 ✅ **PHP Web Interface** – Displays **cPanel account disk usage** in a sortable table.  
 ✅ **CSV Export** – Download reports with a **single click**.  
 ✅ **Auto-Sorting** – Sorts by **disk usage** by default.  
@@ -14,9 +14,9 @@ This repository includes tools for **disk usage monitoring**, **account manageme
 
 ---
 
-## � Installation
+## Installation
 
-### **1️⃣ Clone the Repository**
+### **Clone the Repository**
 ```sh
 git clone https://github.com/dahnutz/cpanel-tools.git
 cd cpanel-tools
@@ -24,9 +24,9 @@ cd cpanel-tools
 
 ---
 
-## �️ PHP Script (Web Interface)
+## PHP Script (Web Interface)
 
-### **� Setup**
+### **Setup**
 1. **Upload the `php/disk_usage.php` script** to your cPanel or any PHP-supported web host.  
 2. **Edit the script** to add your **cPanel API credentials**:
    ```php
@@ -42,9 +42,9 @@ cd cpanel-tools
 
 ---
 
-## � Python Script (CLI)
+## Python Script (CLI)
 
-### **� Usage**
+### **Usage**
 1. **Install Dependencies**:
    ```sh
    pip install requests pandas
@@ -65,7 +65,7 @@ cd cpanel-tools
    ```
 ---
 
-## � API Configuration
+## API Configuration
 1. **Create a WHM API Token**:  
    - Login to WHM → Search `Manage API Tokens`
    - Click **Generate Token**
@@ -77,16 +77,16 @@ cd cpanel-tools
 
 ---
 
-## � License
+## License
 This project is licensed under the **MIT License** – you're free to use, modify, and distribute it!  
 See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## � Contributions
-� **Want to improve this?** Fork the repo, make changes, and submit a **pull request**!  
+## Contributions
+**Want to improve this?** Fork the repo, make changes, and submit a **pull request**!  
 
 ---
 
-## ⭐ Support & Feedback
-If you find this useful, **star the repo** � and share it with others! �  
+## Support & Feedback
+If you find this useful, **star the repo** and share it with others!
